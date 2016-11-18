@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="css/mhstyles.css" type="text/css" rel="stylesheet">
+  <title>Music History</title>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#" id="list">List Music</a></li>
+					<li><a href="#" id="add">Add Music</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="ListMusicView">
+			<div id="sidebar">
+				<label>Song Length: </label><br><br>
+				<label>Artist: </label><br>
+				<select>
+					<option>Options</option>
+					<option>Babyface Edmonds</option>
+					<option>Joe</option>
+					<option>Tevin Campbell</option>
+					<option>Jon B.</option>
+					<option>Mariah Carey</option>
+				</select><br>
+
+				<label>Album: </label><br>
+				<select>
+					<option>Options</option>
+					<option>Greatest Hits</option>
+					<option>I Wanna Know</option>	
+					<option>TC's Greatest Hits</option>
+					<option>Are You Still Down?</option>
+					<option>Butterfly</option>
+				</select><br>
+			
+					<label>Genre: </label><br>
+					<div id ="genre">
+						<input type="checkbox"><label>Rock</label>
+						<input type="checkbox"><label>Classical</label><br>
+						<input type="checkbox"><label>Blues</label>
+						<input type="checkbox"><label>Jazz</label><br>
+						<input type="checkbox"><label>Pop</label>
+						<input type="checkbox"><label>Hip Hop</label><br>
+					</div>
+					<br>
+				<input type="submit" name="submit" value="Filter" id="submit">
+			</div>
+
+			<div id="rightbar">
+			
+			</div>
+			<!-- <button id="addMore">More Songs</button> -->
+			
+	</div>
+
+	<div id= "AddMusicView">
+		<fieldset id="form">
+			<legend>Add Music</legend>
+				<label>Enter a Song </label><input type="text" placeholder= "Song Title" id="newSong">
+				<label>Enter the Artist's Name </label><input type="text" placeholder="Artist's name" id="newArtist">
+				<label>Enter the Album Title </label><input type="text" placeholder="Album Title" id="newAlbum">
+				<button id="adder">Add Music</button>
+			</fieldset>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/songs.js"></script>
+	<script type="text/javascript" src="javascripts/newsongs.js"></script>
+	<script type="text/javascript" src="javascripts/musichistory.js"></script>
+</body>
+</html>

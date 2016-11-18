@@ -1,0 +1,28 @@
+{
+	"mysongs": [
+		{"title": "Anywhere for You",
+		 "artist": "Backstreet Boys",
+		 "album": "Backstreet Boys"
+		},
+
+		{"title": "I Want You Back",
+		 "artist": "NSYNC",
+		 "album": "NSYNC"
+		},
+
+		{"title": "True to Your Heart",
+		 "artist":"98 Degrees",
+		 "album": "98 Degrees"
+		},
+
+		{"title": "All or Nothing",
+		 "artist": "O-Town",
+		 "album": "Liquid Dreams"
+		},
+
+		{"title": "Back Here",
+		 "artist": "BB Mak",
+		 "album": "BB Mak"
+		}
+	]
+}

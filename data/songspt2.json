@@ -1,0 +1,28 @@
+{
+	"songs2": [
+		{"title": "Shine",
+		 "artist": "Jon B",
+		 "album": "Pleasures U Like"
+		},
+
+		{"title": "Fantasy",
+		 "artist": "Mariah Carey",
+		 "album": "Rainbow"
+		},
+
+		{"title": "Count on Me",
+		 "artist": "Whitney Houston",
+		 "album": "Waiting to Exhale Soundtrack"
+		},
+
+		{"title": "Gotham City",
+		 "artist": "R. Kelly",
+		 "album": "Batman Returns Soundtrack"
+		},
+
+		{"title": "Look into my Eyes",
+		 "artist": "Bone-Thugs-N-Harmony",
+		 "album": "Batman Returns Soundtrack"
+		}
+	]
+}
